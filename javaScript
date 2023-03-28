@@ -1,0 +1,21 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <body>
+                <script language=javascript type ="text/javascript">
+function Fatorial(N){
+    N = parseInt(N);
+
+    if(N == 0) return (1);
+    else return (N * Fatorial(N-1));
+}
+    var N = prompt("n: ");
+          
+                
+     document.write(Fatorial(N));
+     document.write(<br>);           
+        
+     </script>
+    </body>
+    </head>
+    </html>
